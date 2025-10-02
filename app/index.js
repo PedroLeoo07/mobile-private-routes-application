@@ -1,6 +1,7 @@
-import { Redirect } from "expo-router";
+import { Redirect } from 'expo-router';
 
 export default function Index() {
-
-    return <Redirect href="/(auth)/login" />;
+  // Redireciona para login por padrão
+  // O AuthContext irá gerenciar o redirecionamento correto
+  return <Redirect href="/(auth)/login" />;
 }
