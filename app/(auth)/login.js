@@ -102,7 +102,7 @@ export default function LoginScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#000000',
   },
   content: {
     flex: 1,
@@ -117,27 +117,28 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#FF0000',
     marginBottom: 8,
     textAlign: 'center',
   },
   subtitle: {
     fontSize: 16,
-    color: '#666',
+    color: '#CCCCCC',
     marginBottom: 40,
     textAlign: 'center',
   },
   input: {
-    backgroundColor: '#fff',
+    backgroundColor: '#1a1a1a',
     borderRadius: 8,
     padding: 15,
     marginBottom: 15,
     fontSize: 16,
     borderWidth: 1,
-    borderColor: '#ddd',
+    borderColor: '#FF0000',
+    color: '#FFFFFF',
   },
   button: {
-    backgroundColor: '#007AFF',
+    backgroundColor: '#FF0000',
     borderRadius: 8,
     padding: 15,
     alignItems: 'center',
@@ -149,7 +150,7 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   buttonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -160,18 +161,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   registerText: {
-    color: '#666',
+    color: '#CCCCCC',
     fontSize: 14,
   },
   registerLink: {
-    color: '#007AFF',
+    color: '#FF0000',
     fontSize: 14,
     fontWeight: 'bold',
   },
   infoText: {
     marginTop: 30,
     textAlign: 'center',
-    color: '#888',
+    color: '#999999',
     fontSize: 14,
     paddingHorizontal: 20,
   },

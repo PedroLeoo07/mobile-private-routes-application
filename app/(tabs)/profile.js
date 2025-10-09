@@ -24,7 +24,7 @@ export default function ProfileScreen() {
   return (
     <ScrollView style={styles.container}>
       <LinearGradient
-        colors={['#667eea', '#764ba2']}
+        colors={['#FF0000', '#8B0000']}
         style={styles.header}
       >
         <View style={styles.avatarContainer}>
@@ -67,7 +67,7 @@ export default function ProfileScreen() {
 
         <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
           <LinearGradient
-            colors={['#FF6B6B', '#EE5A6F']}
+            colors={['#FF0000', '#CC0000']}
             style={styles.logoutGradient}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 0 }}
@@ -87,7 +87,7 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f8f9fa',
+    backgroundColor: '#000000',
   },
   header: {
     paddingTop: 60,
@@ -106,17 +106,17 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 20,
-    shadowColor: '#000',
+    shadowColor: '#FF0000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
+    shadowOpacity: 0.8,
     shadowRadius: 8,
     elevation: 8,
     borderWidth: 4,
-    borderColor: 'rgba(255, 255, 255, 0.3)',
+    borderColor: '#FF0000',
   },
   avatar: {
     fontSize: 60,
@@ -124,36 +124,38 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#fff',
+    color: '#FFFFFF',
     marginBottom: 8,
-    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowColor: '#000000',
     textShadowOffset: { width: 0, height: 2 },
     textShadowRadius: 4,
   },
   email: {
     fontSize: 16,
-    color: 'rgba(255, 255, 255, 0.9)',
+    color: '#CCCCCC',
     marginBottom: 10,
   },
   infoCard: {
     width: '100%',
-    backgroundColor: '#fff',
+    backgroundColor: '#1a1a1a',
     borderRadius: 16,
     padding: 20,
     marginBottom: 15,
     flexDirection: 'row',
     alignItems: 'center',
-    shadowColor: '#000',
+    shadowColor: '#FF0000',
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
+    shadowOpacity: 0.5,
     shadowRadius: 8,
     elevation: 3,
+    borderWidth: 1,
+    borderColor: '#FF0000',
   },
   infoIconContainer: {
     width: 50,
     height: 50,
     borderRadius: 25,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#FF0000',
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 15,
@@ -166,7 +168,7 @@ const styles = StyleSheet.create({
   },
   infoLabel: {
     fontSize: 12,
-    color: '#888',
+    color: '#999999',
     marginBottom: 4,
     textTransform: 'uppercase',
     fontWeight: '600',
@@ -174,24 +176,24 @@ const styles = StyleSheet.create({
   },
   infoValue: {
     fontSize: 16,
-    color: '#333',
+    color: '#FFFFFF',
     fontWeight: '600',
   },
   statusCard: {
     width: '100%',
-    backgroundColor: '#fff',
+    backgroundColor: '#1a1a1a',
     borderRadius: 16,
     padding: 25,
     marginBottom: 30,
     marginTop: 15,
     alignItems: 'center',
-    shadowColor: '#4CAF50',
+    shadowColor: '#FF0000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
+    shadowOpacity: 0.8,
     shadowRadius: 8,
     elevation: 5,
     borderWidth: 2,
-    borderColor: '#81C784',
+    borderColor: '#FF0000',
   },
   statusEmoji: {
     fontSize: 48,
@@ -200,12 +202,12 @@ const styles = StyleSheet.create({
   statusText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#2E7D32',
+    color: '#FF0000',
     marginBottom: 8,
   },
   statusDescription: {
     fontSize: 13,
-    color: '#388E3C',
+    color: '#CCCCCC',
     textAlign: 'center',
     lineHeight: 18,
   },
@@ -214,9 +216,9 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     marginBottom: 20,
     overflow: 'hidden',
-    shadowColor: '#FF6B6B',
+    shadowColor: '#FF0000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
+    shadowOpacity: 0.8,
     shadowRadius: 8,
     elevation: 5,
   },
@@ -225,7 +227,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   logoutText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -236,7 +238,7 @@ const styles = StyleSheet.create({
   },
   versionText: {
     fontSize: 12,
-    color: '#999',
+    color: '#999999',
     textAlign: 'center',
   },
 });

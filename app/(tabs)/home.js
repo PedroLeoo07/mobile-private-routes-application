@@ -8,7 +8,7 @@ export default function HomeScreen() {
 
   return (
     <LinearGradient
-      colors={['#000000', '#1a0a0a', '#2a0000', '#1a0a0a', '#000000']}
+      colors={['#000000', '#1a0000', '#330000', '#1a0000', '#000000']}
       style={styles.container}
     >
       <ScrollView>
